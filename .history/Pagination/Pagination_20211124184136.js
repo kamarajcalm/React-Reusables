@@ -1,6 +1,6 @@
 import React from 'react';
-import { usePagination, DOTS } from '../hooks/usePagination';
-import styles from "./Pagination.module.css";
+import { usePagination, DOTS } from '../../hooks/usePagination';
+import styles from "../Pagination/Pagination.module.css";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
 const Pagination = props => {
